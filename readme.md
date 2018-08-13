@@ -1,5 +1,7 @@
 Além do framework Laravel, utilizei bootstrap, Banco de dados mysql e jquery 
 
+O banco de dados foi criado via migration. Acredito que alterando o .env com os novos dados de banco e rodando as migrates as tabelas sejam criadas normalmente. Qualquer dúvida estou à disposição.
+
 
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
