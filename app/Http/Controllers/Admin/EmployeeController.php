@@ -53,17 +53,16 @@ class EmployeeController extends Controller
 
         }
     }
-
-    public function getEmployees(Request $request, $id){ 
-
-    dd('testes');     
+    /* Será utilizado para gerar o campo de funcionário a partir do campo de departamento
+    public function getEmployees(Request $request, $id)
+    {
         //Recebe requisição ajax
         if($request->ajax()){
-            //Chama a função passando o id do
+            //Chama a função passando o id
             $employees = Employee::employees($id);
             return response()->json($employees);
 
         }
     }
-    
+    */
 }
